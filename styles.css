@@ -118,3 +118,12 @@ h1 {
 input {
     width: 250px;
 }
+
+input:focus{
+    border-color: blue;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.passwords input:invalid {
+    border-color: red;
+}
