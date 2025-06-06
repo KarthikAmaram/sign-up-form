@@ -2,8 +2,29 @@ body {
     margin: 0;
 }
 
+.image {
+    position: relative;
+}
 
 img#big {
     width: 35vw;
     height: 100vh;
 }
+
+
+.heading {
+    position: absolute;
+    width: 35vw;
+    top: 155px;
+    color: white;
+    font-size: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);;
+}
+
+.heading img {
+    height: 125px;
+}
+
