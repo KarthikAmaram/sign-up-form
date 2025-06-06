@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'NorseBold';
+  src: url('Norse-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
     margin: 0;
     display: flex;
@@ -13,6 +21,7 @@ img#big {
 }
 
 
+
 .heading {
     position: absolute;
     width: 35vw;
@@ -22,7 +31,10 @@ img#big {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.3);;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: "NorseBold";
+    font-size: 80px;
+    text-align: center;
 }
 
 .heading img {
@@ -74,10 +86,35 @@ img#big {
 button {
     width: 150px;
     padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #596D48;
+    font-weight: bold;
+    color: white;
 }
 
 form {
     display: flex;
     flex-direction: column;
     flex: auto;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.names, .contact-info, .passwords {
+    display: flex;
+    gap: 100px;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+input {
+    width: 250px;
 }
