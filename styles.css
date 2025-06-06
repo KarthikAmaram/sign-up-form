@@ -28,3 +28,12 @@ img#big {
     height: 125px;
 }
 
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
